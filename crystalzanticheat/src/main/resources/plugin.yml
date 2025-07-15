@@ -1,0 +1,49 @@
+name: CrystalzPvP_Anticheat
+version: 1.0
+main: com.salih.anticheat.CrystalzPvP_Anticheat # IMPORTANT: This must match your main plugin class path
+api-version: 1.20 # Specifies compatibility with Minecraft 1.20+ APIs (works for 1.21)
+commands:
+  ban:
+    description: Permanently bans a player.
+    usage: /ban <username> [reason]
+    permission: anticheat.ban
+  tempban:
+    description: Temporarily bans a player.
+    usage: /tempban <username> <duration> [reason]
+    permission: anticheat.tempban
+  banip:
+    description: Permanently bans a player's IP.
+    usage: /banip <username> [reason]
+    permission: anticheat.banip
+  tempbanip:
+    description: Temporarily bans a player's IP.
+    usage: /tempbanip <username> <duration> [reason]
+    permission: anticheat.tempbanip
+  unban:
+    description: Unbans a player.
+    usage: /unban <username>
+    permission: anticheat.unban
+  check:
+    description: Checks a player's punishment history.
+    usage: /check <username>
+    permission: anticheat.check
+  sus:
+    description: Opens a GUI of suspicious players.
+    usage: /sus
+    permission: anticheat.sus
+  setup:
+    description: Sets up the webhook URL.
+    usage: /setup <webhookurl>
+    permission: anticheat.setup
+  webhookcheck:
+    description: Checks the configured webhook.
+    usage: /webhookcheck
+    permission: anticheat.webhookcheck
+  addadmin:
+    description: Adds an admin to the plugin.
+    usage: /addadmin <username>
+    permission: anticheat.addadmin
+  anticheat:
+    description: Main Anticheat commands.
+    usage: /anticheat notify <player> <reason>
+    permission: anticheat.notify # For manual detection notification

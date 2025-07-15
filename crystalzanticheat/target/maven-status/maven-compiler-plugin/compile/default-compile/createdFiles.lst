@@ -1,0 +1,10 @@
+com\salih\anticheat\managers\PunishmentManager.class
+com\salih\anticheat\listeners\PlayerJoinListener.class
+com\salih\anticheat\CrystalzPvP_Anticheat.class
+com\salih\anticheat\commands\AnticheatCommandExecutor.class
+com\salih\anticheat\managers\PunishmentManager$PunishmentRecord.class
+com\salih\anticheat\managers\SuspectManager.class
+com\salih\anticheat\managers\ConfigManager.class
+com\salih\anticheat\gui\SuspectsGUI.class
+com\salih\anticheat\managers\PunishmentManager$BanEntry.class
+com\salih\anticheat\managers\WebhookManager.class

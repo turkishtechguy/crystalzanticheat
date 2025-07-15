@@ -1,0 +1,10 @@
+# CrystalzPvP_Anticheat Configuration
+# This file will be automatically generated if it doesn't exist.
+
+# Discord Webhook URL for notifications
+# You can set this in-game using /setup <webhookurl>
+webhook-url: ""
+
+# List of player UUIDs who are considered Anticheat admins
+# Only OPs can add admins using /addadmin <username>
+admins: []
